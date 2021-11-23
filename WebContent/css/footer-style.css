@@ -1,0 +1,31 @@
+#footer {
+	background-color: #151515;
+	color: #ffffff;
+	padding: 5px 15px 15px 30px;
+	font-size: 12px;
+}
+
+#footer h3 {
+	font-size: 20px;
+}
+
+#footer ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#footer a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+@media (min-width: 576px) {
+	#footer {
+		font-size: 14px;
+	}
+	
+	#footer h3 {
+		font-size: 24px;
+	}
+}

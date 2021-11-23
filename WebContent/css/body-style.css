@@ -1,0 +1,80 @@
+body, html {
+	background-color: #f9f9f9;
+	height: 100%;
+}
+
+#body {
+	min-height: 75%;
+}
+
+#banner {
+	margin-bottom: 30px;
+	padding: 0;
+}
+
+#best-seller {
+	margin-bottom: 20px;
+}
+
+.title h2 {
+	margin-top: 0px;
+}
+
+.title {
+	margin-bottom:10px;
+}
+
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-item-box {
+	padding: 10px;
+}
+
+.product-item {
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+	padding: 10px;
+	transition: 0.3s;
+	height: 100%;
+}
+
+.product-item:hover {
+	transform: scale(1.02);
+	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.related-tag a.btn-default {
+	border-radius: 10px;
+	background-color: #f8f8f8;
+}
+
+.product-item .product-item-name a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #333333;
+}
+
+.product-item .product-item-price {
+	font-weight: bold;
+	color: #f30000;
+}
+
+.product-item .product-item-describe {
+	margin-bottom: 5px;
+	padding: 5px;
+	background-color: #f8f8f8;
+	border: 1px solid #e5e7eb;
+	border-radius: 8px;
+}
+
+.checked {
+	color: #ffd433;
+}
+
+#other-device {
+	margin-bottom: 30px;
+}

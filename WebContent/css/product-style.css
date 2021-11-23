@@ -1,0 +1,34 @@
+body, html {
+	height: 100%;
+}
+
+#body {
+	min-height: 75%;
+	padding: 40px 0px;
+}
+
+#img-box {
+	border-radius: 30px;
+	border: 1px solid #676767;
+	padding: 30px;
+}
+
+#info-box {
+	padding: 15px 30px;
+}
+
+#price {
+	color: #f10a44;
+	font-size: 24px;
+}
+
+#promotion {
+	border-radius: 5px;
+	background-color: #f4f4f4;
+	padding: 10px;
+	margin: 5px 0px;
+}
+
+.checked {
+	color: #ffd433;
+}
